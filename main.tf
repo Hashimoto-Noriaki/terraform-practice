@@ -25,7 +25,7 @@ resource "local_file" "example" {
 
 # JSON設定ファイルを作成
 resource "local_file" "server_name"{
-    filename = "${path.module}/outputs/congig.json"
+    filename = "${path.module}/outputs/config.json"
     content = jsonencode({
         server_name = random_pet.server_name.id
         enviroment = "develop"

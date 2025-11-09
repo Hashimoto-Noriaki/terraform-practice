@@ -1,0 +1,3 @@
+Hello  name from Terraform
+ Server name: beloved-hagfish
+ Created at:2025-11-09T09:51:20Z
